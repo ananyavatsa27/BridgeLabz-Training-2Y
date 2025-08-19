@@ -4,8 +4,8 @@ public class HarryAge{
         int currentyear = 2024;
         int birthyear = 2000;
         int age = currentyear - birthyear;
-        System.out.println("Harry Age in " + currentyear + "is" + age);
-    
+        System.out.println("Harry Age in " + currentyear  +  " is " + age);
+
     }
 }
 
