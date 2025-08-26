@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class q4_NaturalNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int  num = sc.nextInt();
+        if (num>0){
+            int sum = (num*(num+1))/2;
+            System.out.println(sum);
+        }
+        else{
+            System.out.println("not a natural number");
+
+        }
+        sc.close();
+        
+    }
+
+    
+}
